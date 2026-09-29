@@ -465,6 +465,29 @@ a:focus-visible {
     min-height: 350px;
     padding: 65px 24px;
   }
+  .ost-detail-hero {
+  grid-template-columns: 1fr !important;
+  gap: 40px;
+  margin-top: 20px;
+}
+
+  .ost-detail-cover {
+    width: min(100%, 320px);
+  }
+
+  .ost-detail-info {
+    width: 100%;
+    align-items: center;
+    text-align: center;
+  }
+
+  .ost-detail-description {
+    max-width: 100%;
+  }
+
+  .ost-detail-actions {
+    justify-content: center;
+  }
 }
 
 @media (prefers-reduced-motion: reduce) {
@@ -2433,7 +2456,7 @@ margin-top: 58px;
 
 /* ===== OST DETAIL SCREEN ===== */
 
-.ost-detail-screen {
+.-screen {
   min-height: 100svh;
   padding: 100px 7vw 80px;
   box-sizing: border-box;
