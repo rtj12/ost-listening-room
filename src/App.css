@@ -471,9 +471,16 @@ a:focus-visible {
   margin-top: 20px;
 }
 
-  .ost-detail-cover {
-    width: min(100%, 320px);
-  }
+.ost-detail-cover-wrap {
+  width: auto;
+  justify-content: center;
+}
+
+.ost-detail-cover {
+  width: 150px !important;
+  max-width: 150px !important;
+  height: 150px !important;
+}
 
   .ost-detail-info {
     width: 100%;
@@ -2456,7 +2463,7 @@ margin-top: 58px;
 
 /* ===== OST DETAIL SCREEN ===== */
 
-.-screen {
+.ost-detail-screen {
   min-height: 100svh;
   padding: 100px 7vw 80px;
   box-sizing: border-box;
